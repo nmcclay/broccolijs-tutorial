@@ -6,6 +6,11 @@ const LiveReload = require('broccoli-livereload');
 const babel = require('rollup-plugin-babel');
 const nodeResolve = require('rollup-plugin-node-resolve');
 const commonjs = require('rollup-plugin-commonjs');
+const env = require('broccoli-env').getEnv() || 'development';
+const isProduction = env === 'production';
+
+// Status
+console.log('Environment: ' + env);
 
 const appRoot = 'app';
 
@@ -23,7 +28,7 @@ let js = new Rollup(appRoot, {
     output: {
       file: 'assets/app.js',
       format: 'es',
-      sourcemap: true,
+      sourcemap: !isProduction,
     },
     plugins: [
       nodeResolve({
@@ -46,7 +51,7 @@ const css = new CompileSass(
   'styles/app.scss',
   'assets/app.css',
   {
-    sourceMap: true,
+    sourceMap: !isProduction,
     sourceMapContents: true,
   }
 );
@@ -60,11 +65,13 @@ const public = new Funnel('public', {
 let tree = new Merge([html, js, css, public]);
 
 // Include live reaload server
-tree = new LiveReload(tree, {
-  target: 'index.html',
-  options: {
-    debug: true,
-  }
-});
+if (!isProduction) {
+  tree = new LiveReload(tree, {
+    target: 'index.html',
+    options: {
+      debug: true,
+    }
+  });
+}
 
 module.exports = tree;
