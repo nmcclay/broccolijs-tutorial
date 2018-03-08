@@ -162,4 +162,4 @@ Each step of the tutorial has an accompanied git tag, so you can checkout the ta
 to build the project and see the output. Remember to run `yarn` when checking out new tags.
 All the documentation is in the `docs` folder, split into sections.
 
-* [01-setup](docs/01-setup.md) - Setup
+* [01-setup](docs/01-setup.md)
