@@ -69,4 +69,4 @@ output.
 
 Great, your first Broccoli build is complete, pat yourself on the back 👏.
 
-Next: [Filtering files](https://github.com/oligriffiths/broccolijs-tutorial/blob/02-filtering-files/docs/02-filtering-files.md)
+Next: [Filtering files](https://github.com/oligriffiths/broccolijs-tutorial/blob/parts/02-filtering-files/docs/02-filtering-files.md)
