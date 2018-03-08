@@ -159,4 +159,5 @@ This should start a local HTTP server on `http://localhost:4200`
 ## Tutorial
 
 Each step of the tutorial has an accompanied git tag, so you can checkout the tag if you get lost and you should be able
-to build the project and see the output. All the documentation is in the `docs` folder, split into sections.
+to build the project and see the output. Remember to run `yarn` when checking out new tags.
+All the documentation is in the `docs` folder, split into sections.
