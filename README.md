@@ -164,3 +164,4 @@ All the documentation is in the `docs` folder, split into sections.
 
 * [01-setup](docs/01-setup.md)
 * [02-filtering-files](docs/02-filtering-files.md)
+* [03-merge-trees](docs/03-merge-trees.md)
