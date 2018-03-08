@@ -101,7 +101,7 @@ to use the term "tree" to refer to an entire build pipeline, or a collection of 
 
 An example Broccoli.js tree is represented in the following image:
 
-[!Broccoli Pipeline](docs/assets/broccoli-pipeline-tree.png)
+![Broccoli Pipeline](docs/assets/broccoli-pipeline-tree.png)
 
 From the output node (the one at the bottom), a tree structure can be derived.
 
