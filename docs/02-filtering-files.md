@@ -1,6 +1,6 @@
 ## 02-Filtering files
 
-Tag: [02-filtering-files](https://github.com/oligriffiths/broccolijs-tutorial/tree/02-filtering-files)
+Branch: [Filtering files](https://github.com/oligriffiths/broccolijs-tutorial/blob/parts/02-filtering-files/docs/02-filtering-files.md)
 
 Copying the whole input directory to the output directory isn't what one would really call a "build pipeline".
 Sure, it does the job, but you might as well just ship your `app` directory. Lets have a go at filtering the files we're
@@ -45,4 +45,4 @@ Finally, we return the node as the module export, and Broccoli handles all the r
 Running `npm run build` won't really produce any different output, as we only have one file right now, so let's try
 adding some more files in the next step.
 
-Next: [Merge trees](https://github.com/oligriffiths/broccolijs-tutorial/blob/03-merge-trees/docs/03-merge-trees.md)
+Next: [Merge trees](https://github.com/oligriffiths/broccolijs-tutorial/blob/parts/03-merge-trees/docs/03-merge-trees.md)
