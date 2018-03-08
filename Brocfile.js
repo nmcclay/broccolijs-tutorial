@@ -68,9 +68,6 @@ let tree = new Merge([html, js, css, public]);
 if (!isProduction) {
   tree = new LiveReload(tree, {
     target: 'index.html',
-    options: {
-      debug: true,
-    }
   });
 }
 
