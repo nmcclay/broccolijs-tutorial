@@ -163,3 +163,4 @@ able to build the project and see the output. Remember to run `yarn` when checki
 All the documentation is in the `docs` folder, split into sections.
 
 * [01-setup](docs/01-setup.md)
+* [02-filtering-files](docs/02-filtering-files.md)
