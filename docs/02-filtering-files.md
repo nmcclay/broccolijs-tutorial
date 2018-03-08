@@ -1,6 +1,6 @@
 ## 02-Filtering files
 
-Branch: [Filtering files](https://github.com/oligriffiths/broccolijs-tutorial/blob/parts/02-filtering-files/docs/02-filtering-files.md)
+Branch: [parts/02-filtering-files](/tree/parts/02-filtering-files)
 
 Copying the whole input directory to the output directory isn't what one would really call a "build pipeline".
 Sure, it does the job, but you might as well just ship your `app` directory. Lets have a go at filtering the files we're
