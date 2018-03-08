@@ -1,6 +1,6 @@
 ## 01-Setup:
 
-Tag: [01-setup](https://github.com/oligriffiths/broccolijs-tutorial/tree/01-setup) if you got lost.
+Branch: [01-setup](https://github.com/oligriffiths/broccolijs-tutorial/blob/parts/01-setup/docs/01-setup.md)
 
 First things first, we're going to use [yarn](https://yarnpkg.com) instead of `npm` to ensure our dependencies are in
 lock step.
@@ -69,4 +69,4 @@ output.
 
 Great, your first Broccoli build is complete, pat yourself on the back 👏.
 
-Next: [Filtering files](https://github.com/oligriffiths/broccolijs-tutorial/blob/02-filtering-files/docs/02-filtering-files.md)
+Next: [Filtering files](https://github.com/oligriffiths/broccolijs-tutorial/blob/parts/02-filtering-files/docs/02-filtering-files.md)
